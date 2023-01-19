@@ -10,7 +10,7 @@ app.use(express.json());
 app.use("/books",router);
 app.use(cors());
 
-mongooose.connect("mongodb+srv://Aditi_data:qWwxiognwrFERDK3@cluster0.9lvyu.mongodb.net/Bookstore?retryWrites=true&w=majority")
+mongooose.connect("mongodb+srv://Aditi:Aditi2002@cluster0.yg9hv8x.mongodb.net/?retryWrites=true&w=majority")
 .then(()=>console.log("connected to database"))
 .then(()=>{
     app.listen(5000,)
